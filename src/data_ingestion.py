@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 import os
 
 #URL to dataset
-url = "https://raw.githubusercontent.com/avi350751/my-datasets/main/Students_Performance.csv"
+url = "https://raw.githubusercontent.com/avi350751/my-datasets/main/student_performance.csv"
 
 #Read the dataset
 df = pd.read_csv(url)

@@ -6,7 +6,7 @@ import yaml
 
 #Load train and test data
 train = pd.read_csv('./data/raw/train.csv')
-test = pd.read_csv('/.data/raw/test.csv')
+test = pd.read_csv('./data/raw/test.csv')
 
 #Read from params.yaml
 # Load Parameters

@@ -17,7 +17,7 @@ y_test = test["Placed"]
 rf = pickle.load(open('model.pkl','rb'))
 
 #Make predictions
-y_pred = rf.predict('X_test')
+y_pred = rf.predict(X_test)
 
 #calculate metrics
 accuracy = accuracy_score(y_test,y_pred)
